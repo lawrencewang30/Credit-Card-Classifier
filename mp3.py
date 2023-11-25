@@ -81,7 +81,7 @@ def run_train_test(training_data: pd.DataFrame, testing_data: pd.DataFrame):
 
     # Edit Hyperparameters to get best possible F1 Score 
     param_grid = {
-        'n_estimators': [9],
+        'n_estimators': [7],
         'max_depth': [None],
         'min_samples_split': [2],
         'min_samples_leaf': [1],
