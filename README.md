@@ -8,3 +8,4 @@ We then calculated the metrics listed below:
 **False Positive Rate**  
 **Error Rate**  
 This program outputted an F1 Score of 0.51, which is an improvement from the previous implemented result of 0.48
+The maximum accuracy of this model is currently 92.4% using the selected hyperparameters

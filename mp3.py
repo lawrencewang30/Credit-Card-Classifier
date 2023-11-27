@@ -37,8 +37,10 @@ def preprocess_data(data):
     categorical_features = X.select_dtypes(include=['object']).columns
 
     # Pipeline: apply list of transformers to data
-    # SimpleImputer: used for handling missing values, missing values filled with median (numerical), missing values filled with mode (categorical)
-    # OneHotEncoder: used to convert categorical features to binary value (1 or 0), ignore categories present in test set but not in train set
+    # SimpleImputer: used for handling missing values, missing values filled 
+    # with median (numerical), missing values filled with mode (categorical)
+    # OneHotEncoder: used to convert categorical features to binary value 
+    # (1 or 0), ignore categories present in test set but not in train set
     numerical_transformer = Pipeline(steps=[
         ('imputer', SimpleImputer(strategy='median')),
         ('scaler', StandardScaler())
