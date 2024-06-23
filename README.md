@@ -1,6 +1,6 @@
 # Credit-Card-Classifier
 In this project I implemented a Random Forest Classifier to make a model determining whether an applicant is a risky customer (1) or not (0) based on the applicant's information via the **data.md** file.     
-We then calculated the metrics listed below:  
+We then calculated the following metrics listed below:  
 **F1 Score**  
 **Accuracy**  
 **Precision**  
