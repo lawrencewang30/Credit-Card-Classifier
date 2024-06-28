@@ -7,5 +7,7 @@ We then calculated the following metrics listed below:
 **True Positive Rate**  
 **False Positive Rate**  
 **Error Rate**  
-This program outputted an F1 Score of 0.51, which is an improvement from the previous implemented result of 0.48
-The maximum accuracy of this model is currently 92.4% using the selected hyperparameters
+Optimized model performance using GridSearchCV for hyperparameter tuning, where I achieved an F1
+score of 0.51 and 92.4% accuracy  
+Enhanced prediction accuracy through systematic hyperparameter adjustments and rigorous
+model evaluation, leading to consistent performance improvements
