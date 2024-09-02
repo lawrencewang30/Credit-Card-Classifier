@@ -7,7 +7,7 @@ We then calculated the following metrics listed below:
 **True Positive Rate**  
 **False Positive Rate**  
 **Error Rate**  
-Optimized model performance using GridSearchCV for hyperparameter tuning, where I achieved an F1
+- Optimized model performance using GridSearchCV for hyperparameter tuning, where I achieved an F1
 score of 0.51 and 92.4% accuracy  
-Enhanced prediction accuracy through systematic hyperparameter adjustments and rigorous
+- Enhanced prediction accuracy through systematic hyperparameter adjustments and rigorous
 model evaluation, leading to consistent performance improvements
